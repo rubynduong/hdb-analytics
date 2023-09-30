@@ -40,6 +40,9 @@ Using the transformed data in transformed-data.csv, using Tableau to create corr
 
 1. Overview: HDB Resale Median Price & Number of Transactions, which can be filtered by invidual towns, time period, storey ranges, and flat types (1/2/3/4/5 room, executive, multi-generation)
 
+![Overview](https://github.com/rubynduong/hdb-analytics/assets/106129711/b600053e-0356-460d-aaed-d3bdbe3ae284)
+
+
 2. Distance Optimization: Users input their budgets, desired distances to nearest MRT stations, malls, schools and Raffles MRT Station (CBD), the dashboard will provide the streets and towns that satisfy the requirements. Users can also find streets based on nearest MRT station, malls or schools. 
 
 3. Size Optimization: Users input their budgets and the dashboard provides the size of the biggest flat in each town; as well as the flat average size of the streets.
