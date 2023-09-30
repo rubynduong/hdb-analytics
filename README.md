@@ -42,12 +42,13 @@ Using the transformed data in transformed-data.csv, using Tableau to create corr
 
 ![Overview](https://github.com/rubynduong/hdb-analytics/assets/106129711/b600053e-0356-460d-aaed-d3bdbe3ae284)
 
+2. Distance Optimization: Users input their budgets, desired distances to nearest MRT stations, malls, schools and Raffles MRT Station (CBD), the dashboard will provide the streets and towns that satisfy the requirements. Users can also find streets based on nearest MRT station, malls or schools.
 
-2. Distance Optimization: Users input their budgets, desired distances to nearest MRT stations, malls, schools and Raffles MRT Station (CBD), the dashboard will provide the streets and towns that satisfy the requirements. Users can also find streets based on nearest MRT station, malls or schools. 
+![Distance Optimization](https://github.com/rubynduong/hdb-analytics/assets/106129711/975dd0ae-3834-4664-8c63-c83e03a08e3d)
 
 3. Size Optimization: Users input their budgets and the dashboard provides the size of the biggest flat in each town; as well as the flat average size of the streets.
 
-
+![Size Optimization](https://github.com/rubynduong/hdb-analytics/assets/106129711/d1063bf0-e810-4682-9d96-1635000616cf)
 
 
 
