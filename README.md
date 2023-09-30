@@ -16,29 +16,29 @@ Resale HDB data: https://beta.data.gov.sg/collections
 
 ## Data Collection
 
-Data collection is conducted by running raw_data.py, includes the steps of downloading csv files using wget, concatenating data of all periods, and export into a combined CSV file named raw-data.csv 
+Data collection is conducted by running `raw_data.py`, includes the steps of downloading csv files using wget, concatenating data of all periods, and export into a combined CSV file named raw-data.csv 
 
 ## Geocoding the flat addresses 
 
-Geocoding flat addresses is conducted by running get_flat_location.py, using Nominatim from geopy package. 
+Geocoding flat addresses is conducted by running `get_flat_location.py`, using Nominatim from geopy package. 
 
 ## Collecting geocoded data of important locations: malls, MRT stations, schools 
 
-Prepare a list of important locations: mall_list.py, mrt_list.py, school_list.py
+Prepare a list of important locations: `mall_list.py`, `mrt_list.py`, `school_list.py`
 
-Geocoded data of important locations (malls, schools, and MRT stations) are collected by running get_mall_loc.py, get_mrt_loc.py, get_school_loc.py.
+Geocoded data of important locations (malls, schools, and MRT stations) are collected by running `get_mall_loc.py`, `get_mrt_loc.py`, `get_school_loc.py`.
 
 ## Calculate the distance between flats and malls/schools/MRT stations
 
-This distance calculation is conducted by running distance_data.py and its result is the distance-data.csv file. 
+This distance calculation is conducted by running `distance_data.py` and its result is the `distance-data.csv` file. 
 
 ## Data Transformation
 
-Merge the distance data with the raw data by running transform_data.py and exports the result to transformed_data.csv
+Merge the distance data with the raw data by running `transform_data.py` and exports the result to `transformed_data.csv`
 
 ## Create Tableau dashboards
 
-Using the transformed data in transformed-data.csv, using Tableau to create corresponding visualization and features to satisfy the 3 requirements. 
+Using the transformed data in `transformed-data.csv`, using Tableau to create corresponding visualization and features to satisfy the 3 requirements. 
 
 1. Overview: HDB Resale Median Price & Number of Transactions, which can be filtered by invidual towns, time period, storey ranges, and flat types (1/2/3/4/5 room, executive, multi-generation)
 
