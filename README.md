@@ -2,11 +2,13 @@
 
 ## Introduction 
 
-Welcome to the GitHub repository for the data analysis project of Singapore HDB Resale Prices. This hands-on project involves the end-to-end development of Tableau dashboards to answer 3 key questions/ requirements:
-1. A dashboard to provide a national/regional overview of the number of resale transactions, and median prices across the years from 1990 to 2023.
-2. A dashboard to show towns with the largest flats based on users' budget
-3. A dashboard to show flats of the best areas based on users' budget
+Welcome to the GitHub repository for the data analysis project of Singapore HDB Resale Prices. This hands-on project involves the end-to-end development of Tableau dashboards to answer 3 key questions/ requirements.
 
+1. This dashboard should  provide a **national/regional overview** of the number of resale transactions, and median prices across the years from 1990 to 2023.
+
+2. Buyers would want to **minimize the distances from the flat to important locations** such as MRT stations, malls, schools. This dashboard should help buyers to select the best location, given buyers' input budgets.
+
+3. Buyers would want to **optimize the flat size within a given budget**. This dashboard should suggest buyers which towns had the largest flats based on historical transactions, given buyers' input budgets. 
 
 ## Data Sources
 
